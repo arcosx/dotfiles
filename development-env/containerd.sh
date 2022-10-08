@@ -25,7 +25,7 @@ sudo sed -i 's/SystemdCgroup = false/SystemdCgroup = true/g' /etc/containerd/con
 sudo systemctl restart containerd
 
 # [option] set proxy for pull image
-source ~/.unproxyenv.sh
+source ~/.proxyenv.sh
 mkdir /etc/systemd/system/containerd.service.d
 cat <<EOT > /etc/systemd/system/containerd.service.d/http-proxy.conf
 [Service]
