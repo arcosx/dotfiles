@@ -25,5 +25,5 @@ In fact, I do not need to wipe this shit.
 * [`kubeadm-create-cluster.sh`](./kubeadm-create-cluster.sh) Creating a cluster with kubeadm.
 
 #### Docker
-* [`docker.sh`](./docker.sh) Install Docker ().
+* [`docker.sh`](./docker.sh) Install Docker
     * https://github.com/docker/docker-install
