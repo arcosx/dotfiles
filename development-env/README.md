@@ -10,7 +10,8 @@ In fact, I do not need to wipe this shit.
 * [`ssh.sh`](./ssh.sh) Generate SSH public key.
 * [`github.sh`](./github.sh) Install Github CLI and add SSH public key.
     * https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian-ubuntu-linux-raspberry-pi-os-apt
-
+* [download-vs-code-server.sh](./download-vs-code-server.sh) Linux script to download latest VS Code Server
+    * https://gist.github.com/b01/0a16b6645ab7921b0910603dfb85e4fb
 
 ### Cloud Native
 #### Go
