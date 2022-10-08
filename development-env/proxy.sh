@@ -33,3 +33,6 @@ unset ftp_proxy
 unset socks_proxy
 unset no_proxy
 EOT
+
+curl google.com
+curl ipinfo.io
