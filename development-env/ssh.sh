@@ -1,2 +1,2 @@
-ssh-keygen -t ed25519 -C "xxx@outlook.com"
+ssh-keygen -t ed25519 -C "arcosx@outlook.com"
 cat ~/.ssh/*.pub

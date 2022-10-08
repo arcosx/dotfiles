@@ -15,8 +15,8 @@
     * https://github.com/moovweb/gvm#installing-go
 
 ### Kubernetes
+* [`containerd.sh`](./containerd.sh) Set containererd,runc,CNI.
 * [`kubeadm.sh`](./kubeadm.sh) Install kubeadm.
-* [`containerd-proxy.sh`](./containerd-proxy.sh) Set containererd's proxy.
 * [`kubeadm-create-cluster.sh`](./kubeadm-create-cluster.sh) Creating a cluster with kubeadm.
 
 

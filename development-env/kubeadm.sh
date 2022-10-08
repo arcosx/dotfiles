@@ -6,4 +6,11 @@ apt-get update
 apt-get install -y kubelet kubeadm kubectl
 apt-mark hold kubelet kubeadm kubectl
 
-
+# ready step for install kubernetes
+kubeadm config images pull
+# [option] see the containerd status
+systemctl status containerd.service
+# [option] Check containerd images
+ctr -n k8s.io images ls
+# or
+nerdctl -n k8s.io image ls
