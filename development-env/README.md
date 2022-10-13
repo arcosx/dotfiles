@@ -1,6 +1,8 @@
 # Setting up my development environment
 
-Environment configuration in the absence of a healthy network environment.
+Environment configuration in [**the absence of a healthy network**](https://en.wikipedia.org/wiki/Great_Firewall) environment.
+
+Of course it also applies to a good network environment
 
 In fact, I do not need to eat this shit.
 
