@@ -2,7 +2,7 @@
 
 Environment configuration in the absence of a healthy network environment.
 
-In fact, I do not need to wipe this shit.
+In fact, I do not need to eat this shit.
 
 ## Basic
 * [`proxy.sh`](./proxy.sh) Set Proxy.
