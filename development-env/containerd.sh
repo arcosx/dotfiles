@@ -16,8 +16,8 @@ wget github.com/containernetworking/plugins/releases/download/v1.1.1/cni-plugins
 sudo tar Cxzvf /opt/cni/bin cni-plugins-linux-amd64-v1.1.1.tgz
 sudo systemctl restart containerd
 
-wget github.com/containerd/nerdctl/releases/download/v0.23.0/nerdctl-0.23.0-linux-amd64.tar.gz
-sudo tar Cxzvf /usr/local/bin nerdctl-0.23.0-linux-amd64.tar.gz
+wget https://github.com/containerd/nerdctl/releases/download/v1.1.0/nerdctl-1.1.0-linux-amd64.tar.gz
+sudo tar Cxzvf /usr/local/bin nerdctl-*.gz
 
 sudo mkdir -p /etc/containerd/
 containerd config default | sudo tee /etc/containerd/config.toml
