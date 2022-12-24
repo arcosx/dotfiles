@@ -1,5 +1,5 @@
-wget github.com/containerd/containerd/releases/download/v1.6.8/containerd-1.6.8-linux-amd64.tar.gz
-sudo tar Czxvf /usr/local containerd-1.6.8-linux-amd64.tar.gz
+wget https://github.com/containerd/containerd/releases/download/v1.6.14/containerd-1.6.14-linux-amd64.tar.gz
+sudo tar Czxvf /usr/local containerd-1.6.14-linux-amd64.tar.gz
 
 wget https://raw.githubusercontent.com/containerd/containerd/main/containerd.service
 sudo mv containerd.service /usr/lib/systemd/system/
