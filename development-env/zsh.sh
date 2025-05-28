@@ -9,5 +9,6 @@ sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.2
     -a 'setopt INC_APPEND_HISTORY' \
     -a 'setopt SHARE_HISTORY' \
     -a 'ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=0"'
-    
+chsh -s $(which zsh)
+zsh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
