@@ -4,7 +4,7 @@ sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.2
     -p https://github.com/zsh-users/zsh-completions \
     -a 'HISTSIZE=500000' \
     -a 'SAVEHIST=500000' \
-    -a 'HISTFILE=/workspace/.zsh_history' \
+    -a 'HISTFILE=/root/.zsh_history' \
     -a 'setopt appendhistory' \
     -a 'setopt INC_APPEND_HISTORY' \
     -a 'setopt SHARE_HISTORY' \
